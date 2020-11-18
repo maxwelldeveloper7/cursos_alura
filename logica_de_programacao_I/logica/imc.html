@@ -15,11 +15,24 @@
         return peso / (altura * altura);
     }
 
-    var peso = 90;
-    var altura = 1.89;
+    var nome = prompt("Informe o seu nome");
+    var peso = prompt(nome + ", informe a sua peso");
+    var altura = prompt(nome + ", informe sua altura");
 
     var imc = peso / (altura * altura);
 
-    mostra("O imc é " + calculaImc(peso, altura));    
+    mostra(nome +", o seu imc é " + calculaImc(peso, altura));    
+    
+    if(imc < 18.5){
+        mostra("Você está abaixo do recomendado.")
+    }
+
+    if(imc > 35){
+        mostra("Vocẽ está acima do recomendado.")
+    }
+
+    if(imc >= 18.5 && imc <= 35){
+        mostra("Seu IMC está excelente.")        
+    }
 
 </script>
