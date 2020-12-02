@@ -14,8 +14,13 @@
         pincel.strokeRect(x, y, 50, 50);
     }
 
-    
-    desenhaQuadrado(0, 0, 'green');
-    desenhaQuadrado(50, 0,'red');
-    desenhaQuadrado(100, 0, 'yellow');
+    var x = 0;
+
+    while(x < 600){
+        desenhaQuadrado(x, 0, 'green');
+        desenhaQuadrado(x, 50, 'red');
+        desenhaQuadrado(x, 100, 'blue');
+        desenhaQuadrado(x, 150, 'yellow');
+        x = x + 50;
+    }
 </script>
