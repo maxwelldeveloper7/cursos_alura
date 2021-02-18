@@ -37,20 +37,16 @@ header .container {
   top: -.5em;
   font-size: 1.2em;
   font-weight: lighter; }
-
-.menu-opcoes ul {
-  padding-left: 0; }
-
-.menu-opcoes li {
-  display: inline-block;
-  width: 5em; }
-
-.menu-opcoes a {
-  color: #fff;
-  text-decoration: none; }
-
-.menu-opcoes a:hover {
-  text-decoration: underline; }
+  .menu-opcoes ul {
+    padding-left: 0; }
+  .menu-opcoes li {
+    display: inline-block;
+    width: 5em; }
+  .menu-opcoes a {
+    color: #fff;
+    text-decoration: none; }
+    .menu-opcoes a:hover {
+      text-decoration: underline; }
 
 /** Destaque **/
 .destaque {
@@ -165,7 +161,7 @@ header .container {
 
 .itens-plano {
   padding-left: 1.2em; }
-
+  
 .itens-plano li {
   font-size: 1em;
   list-style: none;
